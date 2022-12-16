@@ -1,2 +1,2 @@
-# FunctionalProgramming
+# Functional Programming
 Functional Programming
