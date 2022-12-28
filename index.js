@@ -24,4 +24,9 @@ let zipPath = ['address', 'zip'];
 
 let zipLens = R.lens(R.path(zipPath), R.assocPath(zipPath));
 
+let newPerson = R.set(zipLens, '41600', person);
+
+
+
 console.log(R.view(zipLens, person));
+console.log(R.view(zipLens, newPerson));
